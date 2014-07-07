@@ -99,8 +99,8 @@ img.bg {
         text-align:center;
     }
     .title12{
-                font-size: 2.2em;
-                text-align:left;
+                font-size: 2.35em;
+                text-align:center;
             }
     .title2{
         font-size: 1.8em;
@@ -116,7 +116,7 @@ img.bg {
     }
     .title12{
                 font-size: 2.35em;
-                text-align:left;
+                text-align:center;
             }
     .title2{
             font-size:1.6em;
@@ -361,4 +361,36 @@ text-indent: 50px;
 
 .copy {
 padding: 2%;
-color:white;}
+color:white;
+}
+
+.workcontainer {
+min-width:0;
+}
+
+.work {
+
+    min-width: 10px;
+
+}
+
+
+
+.logo{
+       /* background-image: url("img/mnb_logo.png");
+        display: block;
+        height: 100px;;
+        background-size:contain;
+        background-position:center;
+        background-repeat:no-repeat;*/
+
+
+
+}
+
+.imgwork {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 765px;
+}
