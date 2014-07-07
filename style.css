@@ -76,6 +76,9 @@ img.bg {
             font-size: 2.3em;
             text-align:left;
         }
+    .about {
+        font-size: 1.2em;
+    }
 }
 
 @media all and (max-width: 959px) and (min-width: 600px) {
@@ -91,6 +94,9 @@ img.bg {
         font-size: 2.3em;
         text-align:left;
     }
+    .about {
+            font-size: 1.1em;
+        }
 }
 
 @media all and (max-width: 599px) and (min-width: 320px) {
@@ -106,6 +112,9 @@ img.bg {
         font-size: 1.8em;
         text-align:center;
     }
+    .about {
+            font-size: 1em;
+        }
 
 }
 
@@ -350,10 +359,10 @@ opacity:1;
 
 .about {
     font-family: claredonFont;
-    font-size:1.2em;
+
 }
 
-p {
+br {
 
 text-indent: 50px;
 
@@ -377,6 +386,9 @@ min-width:0;
 
 
 .logo{
+float: right;
+padding:15px;
+
        /* background-image: url("img/mnb_logo.png");
         display: block;
         height: 100px;;
